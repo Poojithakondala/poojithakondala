@@ -1,16 +1,35 @@
 ## Hi there 👋
 
-<!--
-**Poojithakondala/poojithakondala** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🍔 Swiggy Data Analytics Project  
 
-Here are some ideas to get you started:
+## 📌 Overview
+This project analyzes Swiggy order data using **Python (pandas, matplotlib, seaborn, sklearn)** and **SQL** to extract business insights.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Python**: Data Cleaning, EDA, Visualizations, ML Models (Regression, Clustering).  
+- **SQL**: Queries for customer behavior, restaurant performance, delivery trends.  
+
+---
+
+## 📂 Files in this Repo
+- `swiggy_pynb.py` → Python analysis & ML  
+- `swiggy sql code file.sql` → SQL queries for insights  
+
+---
+
+## 🔑 Key Insights
+- **Top Restaurants & Cuisines** by order frequency.  
+- **Revenue trends** by date, time, and weekday.  
+- **Delivery performance** (distance vs time, city tier).  
+- **Customer segmentation (RFM Analysis)**.  
+- **ML Models**:
+  - Linear Regression for predicting `Order Amount`.
+  - KMeans clustering for delivery performance.   
+
+---
+
+## 🚀 How to Run
+### Python
+```bash
+pip install pandas matplotlib seaborn scikit-learn
+python swiggy_pynb.py
+
